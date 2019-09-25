@@ -28,10 +28,11 @@ Debian，Ubuntu，Mint等请选择Debian脚本
 <h2 id="搭建教程">搭建教程</h2>
 
 <p>CentOS，Redhat，Fedora等请选择CentOS脚本</p>
-
-#Bash wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh
-#Bash chmod +x one-key-kms-centos.sh
-#Bash ./one-key-kms-centos.sh
+```Bash
+wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh
+chmod +x one-key-kms-centos.sh
+./one-key-kms-centos.sh
+```
 
 wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh
 chmod +x one-key-kms-centos.sh
