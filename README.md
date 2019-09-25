@@ -57,3 +57,6 @@ netstat -nxtlp | grep 1688
 
  记得防火墙打开1688端口
  
+```
+iptables -A INPUT -p tcp -m tcp --dport 1688 -j ACCEPT 
+```
