@@ -31,41 +31,29 @@ Debian，Ubuntu，Mint等请选择Debian脚本
 
 ```
 wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh
-
 chmod +x one-key-kms-centos.sh
-
 ./one-key-kms-centos.sh
 ```
 
-wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh
-chmod +x one-key-kms-centos.sh
-./one-key-kms-centos.sh
-Debian，Ubuntu，Mint等请选择Debian脚本
-
+ Debian，Ubuntu，Mint等请选择Debian脚本
+```
 wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-debian.sh
 chmod +x one-key-kms-debian.sh
 ./one-key-kms-debian.sh
-1
-2
-3
-wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-debian.sh
-chmod +x one-key-kms-debian.sh
-./one-key-kms-debian.sh
-启动KMS
-
+```
+ 脚本安装下载后
+```
 wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/kms.sh
 chmod +x kms.sh
 ./kms.sh start
-1
-2
-3
-wget https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/kms.sh
-chmod +x kms.sh
-./kms.sh start
-这里的kms.sh还可以使用 start/stop/restart/status的功能来管理KMS服务器。
+```
 
-安装完成后，输入以下命令查看端口号 1688 的监听情况
+ 这里的kms.sh还可以使用 start/stop/restart/status的功能来管理KMS服务器。
 
+ 安装完成后，输入以下命令查看端口号 1688 的监听情况
+```
 netstat -nxtlp | grep 1688
-1
-netstat -nxtlp | grep 1688
+```
+
+ 记得防火墙打开1688端口
+ 
