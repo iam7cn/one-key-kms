@@ -10,6 +10,14 @@ KMS服务器软件vlmcsd Github主页：https://github.com/Wind4/vlmcsd
 
 请根据自己的服务器操作系统运行对应的脚本。
 
+
+
+<h2 id="搭建教程">搭建教程</h2>
+
+
+
+
+
 CentOS，Redhat，Fedora等请选择CentOS脚本
 
 Debian，Ubuntu，Mint等请选择Debian脚本
